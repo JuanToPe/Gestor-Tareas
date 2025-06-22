@@ -1,6 +1,6 @@
 # 📝 Gestor de Tareas
 
-Aplicación web para la gestión de tareas, desarrollada con **Next.js 15**, **TypeScript** y **Tailwind CSS** en el frontend, y **Node.js + Express** en el backend. Almacena las tareas en un archivo `.json` que actúa como base de datos.
+Aplicación web para la gestión de tareas, desarrollada con **Next.js**, **TypeScript** y **Tailwind CSS** en el frontend, y **Node.js + Express** en el backend. Almacena las tareas en un archivo **`.json`** que actúa como base de datos.
 
 ---
 
@@ -18,14 +18,14 @@ Aplicación web para la gestión de tareas, desarrollada con **Next.js 15**, **T
 
 ## 📁 Estructura del Proyecto
 
-/components → Componentes UI y lógicos (botones, diálogos, tarjetas)
-/lib → Funciones utilitarias como llamadas a la API
-/pages → Frontend con Next.js (principalmente index.tsx)
-/server
-├─ /controllers → Lógica del backend (CRUD)
-├─ /routes → Endpoints de la API con Express
-├─ /data → Archivo JSON que actúa como base de datos (tasks.json)
-└─ index.ts → Servidor principal con Express
+- /components → Componentes UI y lógicos (botones, diálogos, tarjetas)
+- /lib → Funciones utilitarias como llamadas a la API
+- /pages → Frontend con Next.js (principalmente index.tsx)
+- /server
+ ├─ /controllers → Lógica del backend (CRUD)
+ ├─ /routes → Endpoints de la API con Express
+ ├─ /data → Archivo JSON que actúa como base de datos (tasks.json)
+ └─ index.ts → Servidor principal con Express
 
 
 ---
