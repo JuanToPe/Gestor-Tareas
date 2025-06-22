@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📝 Gestor de Tareas
 
-## Getting Started
+Aplicación web para la gestión de tareas, desarrollada con **Next.js 15**, **TypeScript** y **Tailwind CSS** en el frontend, y **Node.js + Express** en el backend. Almacena las tareas en un archivo `.json` que actúa como base de datos.
 
-First, run the development server:
+---
+
+## 🚀 Funcionalidades
+
+- Crear tareas con título y descripción
+- Editar tareas existentes
+- Marcar tareas como completadas o pendientes
+- Eliminar tareas
+- Filtrar por estado y búsqueda por texto
+- Estadísticas automáticas de tareas
+- Almacenamiento persistente en archivo JSON local
+
+---
+
+## 📁 Estructura del Proyecto
+
+/components → Componentes UI y lógicos (botones, diálogos, tarjetas)
+/lib → Funciones utilitarias como llamadas a la API
+/pages → Frontend con Next.js (principalmente index.tsx)
+/server
+├─ /controllers → Lógica del backend (CRUD)
+├─ /routes → Endpoints de la API con Express
+├─ /data → Archivo JSON que actúa como base de datos (tasks.json)
+└─ index.ts → Servidor principal con Express
+
+
+---
+
+## 🛠️ Tecnologías Usadas
+
+### Frontend
+- [Next.js 15](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+
+### Backend
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- Almacenamiento en archivo JSON (`server/data/tasks.json`)
+
+---
+
+## ⚙️ Instalación
+
+### 1. Clonar el repositorio
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/tu-usuario/gestor-tareas.git
+cd gestor-tareas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 2. Instalar dependencias
+- npm install
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### 3. Ejecutar el servidor backend
+- npm run dev:backend
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### 4. Ejecutar la app Next.js
+- npm run dev
+- Abrir: http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+### 👨‍💻 Autor
+Desarrollado por JuanToPe.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
