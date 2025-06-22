@@ -47,9 +47,9 @@ Aplicación web para la gestión de tareas, desarrollada con **Next.js 15**, **T
 
 ## ⚙️ Instalación
 
-### 1. Clonar el repositorio
-
 ```bash
+
+### 1. Clonar el repositorio
 git clone https://github.com/tu-usuario/gestor-tareas.git
 cd gestor-tareas
 
