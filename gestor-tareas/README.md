@@ -66,6 +66,3 @@ cd gestor-tareas
 - npm run dev
 - Abrir: http://localhost:3000
 
-### 👨‍💻 Autor
-Desarrollado por JuanToPe.
-
