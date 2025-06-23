@@ -27,21 +27,30 @@ Aplicación web para la gestión de tareas, desarrollada con **Next.js**, **Type
  ├─ /data → Archivo JSON que actúa como base de datos (tasks.json)
  └─ index.ts → Servidor principal con Express
 
-
 ---
 
 ## 🛠️ Tecnologías Usadas
 
 ### Frontend
-- [Next.js 15](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Lucide Icons](https://lucide.dev/)
+- [Next.js 15](https://nextjs.org/) - Usada por: Soporte nativo para Typescript, framework React, optimización de recursos.
+- [TypeScript](https://www.typescriptlang.org/) - Usado por: Typing estructurado, inferencia de tipos, mantenimiento a largo plazo.
+- [Tailwind CSS](https://tailwindcss.com/) - Usado por: Organización de código, clases pre definidas, rápido y ligero, 
 
 ### Backend
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- Almacenamiento en archivo JSON (`server/data/tasks.json`)
+- [Node.js](https://nodejs.org/) - Usado por: Misma tecnología para backend js o ts, .
+- [Express](https://expressjs.com/) - Usado por: Flexibilidad, ecosistema maduro y compatible con cors.
+- Almacenamiento en archivo JSON (`server/data/tasks.json`) - Simpley util. Formato muy usado.
+
+---
+
+## ⏱️ Tiempo Estimado
+- Diseño inicial: ~2h
+- Desarrollo frontend con Next.js y TailwindCSS: ~8h
+- Desarrollo backend con Node.js + Express: ~4h
+- Integración frontend/backend y conexión con archivo JSON: ~2h
+- Pruebas, debugging y mejoras finales: ~2h
+
+**Total aproximado: 18 horas**
 
 ---
 
