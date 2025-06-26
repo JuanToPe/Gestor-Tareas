@@ -45,10 +45,9 @@ Aplicación web para la gestión de tareas, desarrollada con **Next.js**, **Type
 
 ## ⏱️ Tiempo Estimado
 - Diseño inicial: ~2h
-- Desarrollo frontend con Next.js y TailwindCSS: ~8h
+- Desarrollo frontend con Next.js y TailwindCSS: ~10h
 - Desarrollo backend con Node.js + Express: ~4h
 - Integración frontend/backend y conexión con archivo JSON: ~2h
-- Pruebas, debugging y mejoras finales: ~2h
 
 **Total aproximado: 18 horas**
 
